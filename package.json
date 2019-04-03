@@ -1,0 +1,27 @@
+{
+  "name": "layout-pixel-perfect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "start:dev": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altairko/layout-pixel-perfect.git"
+  },
+  "author": "maskaevda",
+  "bugs": {
+    "url": "https://github.com/Altairko/layout-pixel-perfect/issues"
+  },
+  "homepage": "https://github.com/Altairko/layout-pixel-perfect#readme",
+  "devDependencies": {
+    "pug-lint": "^2.5.0",
+    "pug-lint-config-clock": "^2.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

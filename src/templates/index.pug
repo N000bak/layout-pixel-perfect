@@ -5,5 +5,17 @@ html(lang='ru')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
     title Test
   body
-    main
-      h1(class='test') hello world
+    div(class='container')
+      div(class='header') Заголовок
+      div(class='divider')
+      div(class='select')
+        div(class='select-header') Селект
+        svg(xmlns='http://www.w3.org/2000/svg', viewBox='0 0 6 6', class='select-arrow-icon')
+          path(d='M6.01172 1.92969l-.85156-.85156L3.0078 3.23047.85156 1.07813 0 1.92969l3.00781 3.0039zm0 0')
+      div(class='line-text') Строчный текст
+      div(class='input-group')
+        input(class='input', value='Значение')
+        div(class='input-divider') -
+        input(class='input', value='Второе')
+      div(class='button-container')
+        div(class='button button-blue') Кнопка
